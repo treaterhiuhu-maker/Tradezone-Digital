@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Bites Restaurant</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fffaf2;
+  color: #292016;
+}
+
+header {
+  background: #302015;
+  color: white;
+  padding: 22px;
+  text-align: center;
+}
+
+.hero {
+  padding: 90px 20px;
+  text-align: center;
+  background: #8b451f;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 25px;
+  background: #f5b942;
+  color: #302015;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+section {
+  padding: 55px 20px;
+  text-align: center;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.food {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #0001;
+}
+
+footer {
+  background: #302015;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>ROYAL BITES</h1>
+  <p>Delicious Food. Beautiful Moments.</p>
+</header>
+
+<div class="hero">
+  <h2>Welcome to Royal Bites</h2>
+  <p>Experience delicious meals made with love.</p>
+  <a href="#menu" class="btn">Explore Our Menu</a>
+</div>
+
+<section id="menu">
+  <h2>Our Menu</h2>
+
+  <div class="menu">
+    <div class="food">
+      <h3>🍔 Classic Burger</h3>
+      <p>KSh 450</p>
+    </div>
+
+    <div class="food">
+      <h3>🍕 Special Pizza</h3>
+      <p>KSh 850</p>
+    </div>
+
+    <div class="food">
+      <h3>🍗 Grilled Chicken</h3>
+      <p>KSh 700</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Visit Us</h2>
+  <p>Fresh food, friendly service and great experiences.</p>
+  <a href="https://wa.me/254141921546"
+     class="btn">Order on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 Royal Bites Restaurant</p>
+  <p>Demonstration website by TradeZone Digital</p>
+</footer>
+
+</body>
+</html>
